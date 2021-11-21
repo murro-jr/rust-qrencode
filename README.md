@@ -1,0 +1,7 @@
+The `rust-qrencode` contains the Rust bindings for libqrencode.
+
+Libqrencode is a fast and compact library for encoding data in a QR Code, a 2D symbology that can be scanned by handy terminals such as a smartphone. The capacity of QR Code is up to 7000 digits or 4000 characters and has high robustness.
+
+Libqrencode accepts a string or a list of data chunks then encodes in a QR Code symbol as a bitmap array. While other QR Code applications generate an image file, using libqrencode allows applications to render QR Code symbols from raw bitmap data directly. This library also contains a command-line utility outputs QR Code images in various formats.
+
+- [Main Repository for libqrencode](https://github.com/fukuchi/libqrencode).
